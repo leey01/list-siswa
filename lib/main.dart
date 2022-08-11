@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Tabbar.dart';
 
 import 'listSiswa.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const ListSiswa(),
+      home: const Tabbar(),
     );
   }
 }
